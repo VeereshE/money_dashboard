@@ -1,0 +1,72 @@
+.transaction-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+    width: 80%;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .icon-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .transactions-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  
+  .mini {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+  }
+  
+  .amount-text-debit {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fe5c73;
+  }
+  
+  .amount-text-credit {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #16dbaa;
+  }
+  
+  .cat-dat {
+    color: #718ebf;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+  }
+  
+  .transaction-type {
+    color: #505887;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  
+  .icon-buttons {
+    border: none;
+    background-color: transparent;
+  }

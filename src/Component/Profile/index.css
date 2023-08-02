@@ -1,0 +1,225 @@
+.proflie-Container-details{
+    display: inline-flex;
+    padding: 5% 5%; 
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2%; 
+    border-radius: 25px;
+    background: #FFF;
+    margin-left: 5%; 
+    margin-top: 2%; 
+    margin-left: 270px;
+    height: 60vh; 
+  }
+ 
+ 
+ .background-img{
+    width: 202px;
+    height: 208px;
+    flex-shrink: 0;
+    background: url("https://res.cloudinary.com/dgvec2ipx/image/upload/v1690874596/pexels-christina-morillo-1181690_1_loco8i.jpg"), lightgray 50% / cover no-repeat;
+     border-radius: 50%;  
+     margin-top:10px;
+    
+}
+
+.form-img-container{
+    display: flex;
+}
+
+.username_text{
+    color: #505887;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+}
+
+.input_user{
+    width: 300px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #DFEAF2;
+    background: #FFF;
+}
+
+.username_email{
+    color: #505887;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.form-container-User{
+    padding: 30px;
+    margin: 20px;
+    
+}
+
+.ferm-emelem{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-all-container{
+    display: flex;
+    gap: 40px;
+} 
+
+/* Base styles for all screen sizes */
+.form-edit-container {
+    width: 470px;
+    height: 60vh;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .update-form {
+    color: #333B69;
+    font-family: Inter;
+    font-size: 1rem; /* Using rem */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  
+  .update-detail {
+    color: #505887;
+    font-family: Inter;
+    font-size: 0.9rem; /* Using rem */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  
+  .update-input {
+    width: 100%;
+    max-width: 400px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #DFEAF2;
+    background: #FFF;
+  }
+  
+  .update-text {
+    color: #505887;
+    font-family: Inter;
+    font-size: 1rem; /* Using rem */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  .form-padding-container {
+    padding: 20px;
+  }
+  
+ /* Base styles for all screen sizes */
+.delected-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-edit-container {
+  width: 470px;
+  height: 60vh;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.update-form {
+  color: #333b69;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.update-detail {
+  color: #505887;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.update-input {
+  width: 90%;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #dfeaf2;
+  background: #fff;
+}
+
+.update-text {
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .form-edit-container {
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+    }
+    .background-img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .input_user{
+        width: 100%;
+        height: 20px;
+    }
+    .proflie-Container-details{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2%; 
+        border-radius: 25px;
+        background: #FFF;
+        margin-left: 5%; 
+        margin-right: 2%;
+        height: 80vh; 
+      }
+}
+
+@media screen and (min-width: 769px){
+    .input_user{
+        width: 100%;
+    }
+}
+
+
+
+
+  
