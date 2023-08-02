@@ -1,0 +1,156 @@
+
+.sidebar-container {
+    width: 250px;
+    flex-shrink: 0;
+    border-right: 1px solid #e2e2e2;
+    background: #fff;
+    position: fixed;
+  }
+  
+  .logoImage {
+    padding-top: 30px;
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    padding-left: 20px;
+  }
+  
+  .name-container {
+    display: flex;
+    width: 189px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    flex-shrink: 0;
+  }
+  
+  .home {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+  }
+  
+  .title {
+    color: #505887;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .title:hover {
+    color: var(--primary-3, #2d60ff);
+    cursor: pointer;
+  }
+  
+  .listItems {
+    list-style-type: none;
+  }
+  
+  .logout-container {
+    display: flex;
+    padding: 24px 32px 0px 24px;
+    align-items: center;
+    gap: 15px;
+    align-self: stretch;
+    border-top: 1px solid #eaecf0;
+    padding-top: 300px;
+  }
+  
+  .nameItems {
+    color: #505887;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  
+  .email {
+    color: #718ebf;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  .logout {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 16px;
+    bottom: 20px;
+  }
+  
+  .linkPart {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .fixedContainer {
+    position: fixed;
+  }
+  
+  /* maximum width of 767px (Mobile Phones) */
+  @media screen and (max-width: 769px) {
+    .sidebar-container {
+      width: 100%;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
+    }
+  
+    .fixedContainer {
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+    }
+  
+    .sidebar-container.open {
+      transform: translateX(0);
+    }
+  
+    .listItems {
+      padding-top: 100px;
+    }
+  
+    .name-container {
+      justify-content: flex-start;
+      padding-left: 20px;
+      gap: 10px;
+    }
+  
+    .home,
+    .title {
+      font-size: 16px;
+    }
+  
+    .logout-container {
+      flex-direction: column;
+      gap: 8px;
+      padding-top: 0;
+    }
+  
+    .logout {
+      position: static;
+    }
+  }
+  
+  /* width of 768px  */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .sidebar-container {
+      width: 250px;
+    }
+    
+  }
+
+  

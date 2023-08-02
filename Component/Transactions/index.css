@@ -1,0 +1,262 @@
+
+.image_usernmae{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+
+.User_name{
+    color: #343C6A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+}
+
+.tittle_usename{
+    color: #505887;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+}
+
+.amount_username{
+    color: #FE5C73;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} */
+/* Base styles for all screen sizes */
+.list-All-transaction {
+  display: inline-flex;
+  padding: 5% 5%; 
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2%; 
+  border-radius: 25px;
+  background: #FFF;
+  margin-left: 10%; 
+  margin-top: 2%; 
+  width: 100%; 
+  height: 100%; 
+   padding-left: 10%;
+}
+
+.list-details {
+  display: flex;
+  gap: 5%; 
+}
+
+.line {
+  width: 100%; 
+  height: 1px;
+  background: #E2E2E2;
+}
+
+.down_cost {
+  width: 5%; 
+  height: 5%; 
+  flex-shrink: 0;
+}
+
+.list-of-all-details {
+  display: flex;
+  gap: 8%;
+}
+
+.personUsername {
+  display: flex;
+  gap: 2%; 
+}
+
+.Username {
+  color: #505887;
+  font-family: Inter;
+  font-size: 0.8rem; 
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.image_usernmae {
+  width: 20px; 
+  height: 20px; 
+  border-radius: 50%; 
+}
+
+.User_name {
+  color: #343C6A;
+  font-family: Inter;
+  font-size: 0.8rem; /* Using rem */
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 100%;
+}
+
+.tittle_usename {
+  color: #505887;
+  font-family: Inter;
+  font-size: 0.8rem; /* Using rem */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.amount_username {
+  color: #FE5C73;
+  font-family: Inter;
+  font-size: 0.8rem; 
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* Media query for mobile view (up to 768px) */
+@media screen and (max-width: 768px) {
+  .list-All-transaction {
+    width: 90%; 
+    margin-left: 5%; 
+  }
+
+  .list-details {
+    display: flex;
+    gap: 3%; 
+  }
+
+  .line {
+    width: 100%; 
+  }
+}
+
+/* Media query for tablet view (between 768px and 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .list-All-transaction {
+    width: 20%; 
+    margin-left: 10%; 
+  }
+}
+
+/* Media query for laptop view (above 1024px) */
+@media screen and (min-width: 1024px) {
+  .list-All-transaction {
+    width: 70%; 
+    padding-top: 1%;
+  }
+}
+
+
+/* Add a media query for Mobile view (up to 768px) */
+@media screen and (max-width: 769px) {
+  .list-All-transaction {
+    width: 100%;
+    padding: 10px;
+    margin-left: 0;
+  }
+  .list-details{
+    padding-left: 10%;
+  }
+}
+
+
+@media screen  and (max-width:1440px){
+  .list-All-transaction{
+    width: 100%;
+  }
+}
+
+
+/* Media query for laptop view (above 1024px and up to 1440px) */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .list-All-transaction {
+    width: 70%;
+    padding: 2% 3%;
+    margin-left: 15%;
+    
+  }
+
+  .list-details {
+    display: flex;
+    gap: 5%;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .image_usernmae {
+    width: 25px;
+    height: 25px;
+  }
+
+  .Username {
+    font-size: 1rem;
+  }
+
+  .tittle_usename {
+    font-size: 1rem;
+  }
+
+  .amount_username {
+    font-size: 1rem;
+  }
+}
+
+/* Media query for large laptop view (above 1440px) */
+@media screen and (min-width: 1440px) {
+  .list-All-transaction {
+    width: 60%;
+    padding: 2% 3%;
+    margin-left: 20%;
+  }
+
+  .list-details {
+    display: flex;
+    gap: 5%;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .image_usernmae {
+    width: 30px;
+    height: 30px;
+  }
+
+  .Username {
+    font-size: 1.2rem;
+  }
+
+  .tittle_usename {
+    font-size: 1.2rem;
+  }
+
+  .amount_username {
+    font-size: 1.2rem;
+  }
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.all-transication-list-2{
+  display: flex;
+  gap: 2px;
+}
+
+.all-tans-container{
+  display: flex;
+}

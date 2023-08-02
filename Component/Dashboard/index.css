@@ -1,0 +1,266 @@
+.Dashboard-container{
+    height: 100vh;
+    background: #F5F7FA;
+    
+}
+
+
+
+.card_heading_section{
+    display: flex;
+    padding: 0.5% 0.3%;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+}
+
+
+.dash_head{
+    color: #343C6A;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    padding-left: 300px;
+}
+
+.AddTransaction_button{
+    margin-right: 40px;
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 12px;
+    background: #2D60FF;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    /* Button 2 Medium 15p */
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card_credit_canter{
+    display: flex;
+    width: 300px;
+    height: 168px;
+    padding: 25px 36px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #FFF;
+     /* padding-left: 300px; */
+    margin: 20px;
+    margin-left:260px;
+    
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-image-container{
+    display: flex ;
+    gap: 10px;
+}
+
+.card-container{
+    display: flex;
+}
+
+.card_credit_canter2{
+    display: flex;
+    width: 450px;
+    height: 168px;
+    padding: 25px 36px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #FFF;
+     /* padding-left: 300px; */
+    margin: 20px; 
+}
+
+.dollar{
+    color: #16DBAA;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.dollar2{
+    color: #FE5C73;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.credit{
+    color: #718EBF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.debit{
+    color: #718EBF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Default styles for all screen sizes */
+
+.Dashboard-container {
+    height: 100vh;
+    background: #F5F7FA;
+  }
+  
+  .card_heading_section {
+    display: flex;
+    padding: 0.5% 0.3%;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+  }
+  
+  /* ... (rest of the styles) ... */
+  
+  /* Media queries for tablet view */
+  
+  @media screen and (max-width: 768px) {
+    .dash_head {
+      padding-left: 30px;
+      font-size: 24px;
+    }
+  
+    .AddTransaction_button {
+      margin-right: 20px;
+      font-size: 14px;
+    }
+  
+     
+  
+    .card_credit_canter,
+    .card_credit_canter2 {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+  
+    .dollar,
+    .dollar2 {
+      font-size: 24px;
+    }
+  
+    .credit,
+    .debit {
+      font-size: 14px;
+    }
+  
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Add more responsive styles as needed */
+  }
+  
+  /* Media queries for mobile view */
+  
+  @media screen and (max-width: 576px) {
+    .dash_head {
+      padding-left: 20px;
+      font-size: 20px;
+    }
+
+    
+    .AddTransaction_button {
+      margin-right: 10px;
+      font-size: 12px;
+    }
+/*   
+    .text-image-container {
+      flex-direction: column;
+      gap: 10px;
+    } */
+  
+    .card_credit_canter,
+    .card_credit_canter2 {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      padding: 15px 20px;
+    }
+  
+    .dollar,
+    .dollar2 {
+      font-size: 20px;
+    }
+  
+    .credit,
+    .debit {
+      font-size: 12px;
+    }
+  
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .Dedit-credit-section {
+      padding-left: 20px;
+    }
+  
+    .dedit_heading {
+      padding-left: 20px;
+      font-size: 20px;
+    }
+  
+    .desdit-credit-section {
+      margin: 10px;
+    }
+  
+    /* Add more responsive styles as needed */
+  }
+  
+
+  @media screen  and (min-width: 769px){
+      .card_credit_canter2{
+        width: 260px;
+      }
+  }
+
+  @media screen  and (max-width:768px){
+    .text-image-container{
+      padding-left: 20px;
+    }
+  }
+
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
